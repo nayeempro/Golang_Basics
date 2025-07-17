@@ -39,11 +39,11 @@ func main() {
 	// }
 	// fmt.Println("Outer block x:", x)
 
-	// err := fmt.Errorf("outer error")
-	// if true {
-	// 	err := fmt.Errorf("inner error") // shadows outer err
-	// 	fmt.Println("Inner:", err)
-	// }
-	// fmt.Println("Outer:", err) // still "outer error"
+	err := fmt.Errorf("outer error")
+	if true {
+		err := fmt.Errorf("inner error") // shadows outer err
+		fmt.Println("Inner:", err)
+	}
+	fmt.Println("Outer:", err) // still "outer error"
 
 }
