@@ -26,7 +26,7 @@ func main() {
 	// 	D
 	// 	E
 	// )
-	// m, n, z := "nayeem", 25, true //Initialize and assign both
+	// m, n, z := "Nayeem", 25, true //Initialize and assign both
 	// fmt.Println(name, age, married, say, a, b, c, d, e, f, newName, isAdmin, m, n, z)
 	// fmt.Println("const value: ", A, B, C, D, E)
 
